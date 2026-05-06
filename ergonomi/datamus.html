@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Datamus og styreflater — Ergonomi</title>
+  <meta name="description" content="Hvor musen skal stå, hvorfor en vertikal mus kan hjelpe, og når trackball er en god idé." />
+  <meta name="theme-color" content="#FBF7F2" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#14110E" media="(prefers-color-scheme: dark)" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..700,0..100,0..1;1,9..144,400..700,0..100,0..1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../styles.css" />
+  <script>(function(){try{var t=localStorage.getItem('hms-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Hopp til hovedinnhold</a>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="../index.html" aria-label="HMS — Forside"><span class="brand__mark" aria-hidden="true">H</span><span>HMS&nbsp;ved&nbsp;skjerm</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Åpne meny"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <nav class="nav" id="primary-nav" aria-label="Primærmeny">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="../index.html">Forside</a></li>
+          <li class="nav__group">
+            <button class="nav__group-toggle" type="button" aria-expanded="false">Risiko<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+            <ul class="nav__sub">
+              <li><a class="nav__link" href="../risiko/index.html">Oversikt</a></li>
+              <li><a class="nav__link" href="../risiko/muskelplager.html">Muskelplager</a></li>
+              <li><a class="nav__link" href="../risiko/syn.html">Syn</a></li>
+              <li><a class="nav__link" href="../risiko/psykososialt.html">Psykososialt</a></li>
+            </ul>
+          </li>
+          <li class="nav__group">
+            <button class="nav__group-toggle" type="button" aria-expanded="false">Ergonomi<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+            <ul class="nav__sub">
+              <li><a class="nav__link" href="index.html">Oversikt</a></li>
+              <li><a class="nav__link" href="arbeidsbord.html">Arbeidsbord</a></li>
+              <li><a class="nav__link" href="skjerm.html">Skjerm</a></li>
+              <li><a class="nav__link" href="tastatur.html">Tastatur</a></li>
+              <li><a class="nav__link" href="datamus.html" aria-current="page">Datamus</a></li>
+            </ul>
+          </li>
+          <li><a class="nav__link" href="../kilder.html">Kilder</a></li>
+          <li><a class="nav__link" href="../om.html">Om</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Bytt mellom lyst og mørkt tema"><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <nav class="breadcrumbs" aria-label="Brødsmuler">
+        <ol>
+          <li><a href="../index.html">Forside</a></li>
+          <li><a href="index.html">Ergonomi</a></li>
+          <li aria-current="page">Datamus</li>
+        </ol>
+      </nav>
+
+      <div class="article-shell">
+        <header class="article-shell__head fade-in">
+          <span class="eyebrow">Ergonomi · Datamus</span>
+          <h1>Musen er liten — men den belaster mye.</h1>
+          <p class="lead">Hvor du plasserer den, og hvilken type du velger, avgjør hvor mye skuldermuskulaturen jobber gjennom dagen. To enkle grep gjør det meste.</p>
+        </header>
+
+        <article class="prose stack-lg">
+          <section id="plassering">
+            <h2>Plassering: tett inntil tastaturet</h2>
+            <p>Den vanligste musefeilen er å plassere musen langt ute til høyre — bortenfor numpad-en. Hver gang du går fra tastatur til mus, må du da strekke hele skulderen utover. Gang det med flere hundre ganger per dag.</p>
+            <p>Plasser musen <strong>like ved tastaturet</strong>. Hvis du har et tastatur med numpad du sjelden bruker, vurder et «tenkeyless»-tastatur (uten numpad) for å få musen nærmere kroppens midtlinje.</p>
+          </section>
+
+          <section id="vertikal">
+            <h2>Vertikal mus</h2>
+            <div class="callout">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v20M5 8l7-6 7 6"/></svg>
+              <div>
+                <strong>Vertikal mus reduserer pronasjon.</strong>
+                <p>Pronasjon er når underarmen er rotert med håndflaten ned. En vertikal mus lar hånden hvile i en mer naturlig «håndtrykksstilling» — som er mindre belastende for underarmsmuskulaturen.</p>
+              </div>
+            </div>
+            <p>Eksempler: <a href="https://www.logitech.com/no-no/products/mice/mx-vertical-ergonomic-mouse.html" rel="noopener">Logitech MX Vertical</a> og enklere modeller fra Anker. Du trenger ikke teste alle — start med én og bruk den noen uker. Vertikal mus føles rart i 2–3 dager, så føles den som det beste du har prøvd.</p>
+          </section>
+
+          <section id="trackball">
+            <h2>Trackball og styreflate</h2>
+            <p>Hvis du har eksisterende plager — særlig i underarmen — kan en <strong>trackball</strong> eller en <strong>styreflate</strong> (touchpad) være et bedre valg enn både vanlig og vertikal mus. På trackball flytter du markøren med tommelen eller fingrene, og hånden er helt i ro.</p>
+            <p>Mange bedriftshelsetjenester anbefaler trackball ved museskader, fordi det fjerner belastningen i skulderen helt.</p>
+          </section>
+
+          <section id="bytt">
+            <h2>Bytt mellom enheter</h2>
+            <p>Et lite triks som hjelper mye: bytt hvilken hånd du bruker musen med fra tid til annen, eller bytt mellom mus og styreflate. Variasjon er nesten alltid bedre enn ett perfekt verktøy.</p>
+            <p class="kilde">Kilde: <a href="https://www.arbeidstilsynet.no/tema/ergonomi/arbeid-ved-dataskjerm/" rel="noopener">Arbeidstilsynet — Arbeid ved dataskjerm</a></p>
+          </section>
+
+          <section id="oppsummering">
+            <h2>Kort oppsummert</h2>
+            <div class="do-dont">
+              <div class="do-dont__col do-dont__col--ok">
+                <h3><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Gjør dette</h3>
+                <ul>
+                  <li>Plasser musen tett inntil tastaturet.</li>
+                  <li>Vurder vertikal mus hvis du merker spenninger i underarmen.</li>
+                  <li>Bruk trackball eller styreflate ved eksisterende plager.</li>
+                  <li>Bytt hånd / enhet av og til for variasjon.</li>
+                </ul>
+              </div>
+              <div class="do-dont__col do-dont__col--no">
+                <h3><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M5 5l14 14"/></svg>Unngå</h3>
+                <ul>
+                  <li>Mus langt ute til høyre for numpad-en.</li>
+                  <li>Klem-grep — la hånden hvile, ikke knuge.</li>
+                  <li>Å fortsette med samme mus når du har vondt i underarmen.</li>
+                  <li>Veldig liten reisemus til hovedjobbing.</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <aside class="toc" aria-label="På denne siden">
+          <p class="toc__title">På denne siden</p>
+          <ol id="toc-list"></ol>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__inner">
+      <div class="site-footer__col"><h4>Om siden</h4><p class="muted">Skoleoppgave i Informasjonsteknologi og medieproduksjon, Vg2&nbsp;IM.</p></div>
+      <div class="site-footer__col"><h4>Innhold</h4><ul><li><a href="../risiko/index.html">Risiko</a></li><li><a href="index.html">Ergonomi</a></li><li><a href="../kilder.html">Kilder</a></li><li><a href="../om.html">Om prosjektet</a></li></ul></div>
+      <div class="site-footer__col"><h4>Hovedkilder</h4><ul><li><a href="https://www.arbeidstilsynet.no/" rel="noopener">Arbeidstilsynet</a></li><li><a href="https://www.stami.no/" rel="noopener">STAMI</a></li><li><a href="https://lovdata.no/dokument/SF/forskrift/2011-12-06-1356/" rel="noopener">Forskrift 528</a></li></ul></div>
+      <p class="site-footer__legal">© 2026 [NAVN] · Vg2&nbsp;IM · Innholdet er paraframert fra åpent tilgjengelige norske kilder.</p>
+    </div>
+  </footer>
+
+  <script src="../app.js" defer></script>
+</body>
+</html>

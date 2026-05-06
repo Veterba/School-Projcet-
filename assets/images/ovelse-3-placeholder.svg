@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Plassholder for øvelse 3 — bryststrekk i døråpning">
+  <rect width="400" height="300" fill="#FCEAD8"/>
+  <g fill="none" stroke="#C2410C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="120" y="40" width="160" height="220" rx="2"/>
+    <circle cx="200" cy="115" r="20"/>
+    <path d="M200 135 v60"/>
+    <path d="M200 150 l-50 -30"/>
+    <path d="M200 150 l50 -30"/>
+    <path d="M200 195 v50"/>
+    <path d="M200 245 q-15 10 -22 20"/>
+    <path d="M200 245 q15 10 22 20"/>
+  </g>
+  <text x="200" y="285" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#5A544C">Bryststrekk — bytt ut bilde</text>
+</svg>
