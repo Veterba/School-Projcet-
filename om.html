@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Om prosjektet — HMS ved dataskjerm</title>
+  <meta name="description" content="Om skoleoppgaven, valg av verktøy, og refleksjon rundt CMS, KI-verktøy og hardkoding." />
+  <meta name="theme-color" content="#FBF7F2" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#14110E" media="(prefers-color-scheme: dark)" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..700,0..100,0..1;1,9..144,400..700,0..100,0..1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script>(function(){try{var t=localStorage.getItem('hms-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Hopp til hovedinnhold</a>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html" aria-label="HMS — Forside"><span class="brand__mark" aria-hidden="true">H</span><span>HMS&nbsp;ved&nbsp;skjerm</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Åpne meny"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <nav class="nav" id="primary-nav" aria-label="Primærmeny">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Forside</a></li>
+          <li class="nav__group">
+            <button class="nav__group-toggle" type="button" aria-expanded="false">Risiko<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+            <ul class="nav__sub">
+              <li><a class="nav__link" href="risiko/index.html">Oversikt</a></li>
+              <li><a class="nav__link" href="risiko/muskelplager.html">Muskelplager</a></li>
+              <li><a class="nav__link" href="risiko/syn.html">Syn</a></li>
+              <li><a class="nav__link" href="risiko/psykososialt.html">Psykososialt</a></li>
+            </ul>
+          </li>
+          <li class="nav__group">
+            <button class="nav__group-toggle" type="button" aria-expanded="false">Ergonomi<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+            <ul class="nav__sub">
+              <li><a class="nav__link" href="ergonomi/index.html">Oversikt</a></li>
+              <li><a class="nav__link" href="ergonomi/arbeidsbord.html">Arbeidsbord</a></li>
+              <li><a class="nav__link" href="ergonomi/skjerm.html">Skjerm</a></li>
+              <li><a class="nav__link" href="ergonomi/tastatur.html">Tastatur</a></li>
+              <li><a class="nav__link" href="ergonomi/datamus.html">Datamus</a></li>
+            </ul>
+          </li>
+          <li><a class="nav__link" href="kilder.html">Kilder</a></li>
+          <li><a class="nav__link" href="om.html" aria-current="page">Om</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Bytt mellom lyst og mørkt tema"><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <nav class="breadcrumbs" aria-label="Brødsmuler">
+        <ol>
+          <li><a href="index.html">Forside</a></li>
+          <li aria-current="page">Om</li>
+        </ol>
+      </nav>
+
+      <header style="max-inline-size: 60ch; padding-block: var(--s-5) var(--s-6)">
+        <span class="eyebrow">Om prosjektet</span>
+        <h1 style="margin-block-start: var(--s-3)">Bygd for hånd, ikke generert.</h1>
+        <p class="lead" style="margin-block-start: var(--s-4)">Denne siden er en skoleoppgave i Informasjonsteknologi og medieproduksjon, Vg2&nbsp;IM, om HMS ved arbeid ved dataskjerm. Her er hva som er valgt og hvorfor.</p>
+      </header>
+
+      <article class="prose stack-lg">
+        <section>
+          <h2>Om meg</h2>
+          <p>Mitt navn er <strong>[NAVN]</strong>, og jeg går Vg2 Informasjonsteknologi og medieproduksjon. Oppgaven gikk ut på å lage et nettsted som forklarer HMS ved skjermarbeid for jevnaldrende elever, og samtidig levere et forprosjekt-dokument med refleksjoner rundt valg av verktøy.</p>
+          <!-- TODO (student): bytt ut [NAVN] over og legg evt. til et bilde av deg selv her -->
+        </section>
+
+        <section>
+          <h2>Hvorfor jeg valgte å hardkode</h2>
+          <p>Jeg vurderte tre alternativer: hardkoding (HTML, CSS, litt JavaScript), CMS-løsning som WordPress eller Wix, og en KI-basert byggeklossløsning som v0, Lovable eller Framer.</p>
+          <p>Jeg endte på hardkoding av tre grunner:</p>
+          <ol>
+            <li><strong>Læringsutbytte.</strong> Linjen heter Informasjonsteknologi — det er litt poenget å forstå hvordan en nettside faktisk er bygd. Jeg lærer mest av å skrive markup og CSS for hånd.</li>
+            <li><strong>Kontroll.</strong> Når jeg vil at en knapp skal se ut på en bestemt måte, lager jeg den slik. I et CMS må jeg ofte kjempe mot et tema som vil noe annet.</li>
+            <li><strong>Ingen lock-in og ingen abonnement.</strong> Filene fungerer offline og kan åpnes om 10 år uten en server.</li>
+          </ol>
+          <p>Det tok lengre tid enn å bruke et CMS. Men resultatet ser ikke ut som «nok en mal-side», og jeg sitter igjen med kunnskap jeg kan bruke videre.</p>
+        </section>
+
+        <section>
+          <h2>Hardkoding vs. CMS / KI-verktøy</h2>
+          <p>For å være redelig: et CMS hadde gitt meg et fungerende nettsted på en kveld. Et KI-verktøy som v0 eller Lovable hadde gitt meg noe på 20 minutter. Kompromisser:</p>
+
+          <h3>Hardkoding — fordeler og ulemper</h3>
+          <ul>
+            <li><strong>+</strong> Full kontroll over kode, design og ytelse.</li>
+            <li><strong>+</strong> Gratis. Ingen abonnement.</li>
+            <li><strong>+</strong> Ingen lock-in — filene kan flyttes hvor som helst.</li>
+            <li><strong>+</strong> Best for læring av webteknologier.</li>
+            <li><strong>−</strong> Tar lengre tid å sette opp.</li>
+            <li><strong>−</strong> Ikke-tekniske brukere kan ikke oppdatere innhold lett.</li>
+            <li><strong>−</strong> Du må selv ta ansvar for tilgjengelighet, SEO og responsiv design.</li>
+          </ul>
+
+          <h3>CMS (WordPress, Wix, Squarespace, Framer)</h3>
+          <ul>
+            <li><strong>+</strong> Rask oppstart — fungerende side på timer.</li>
+            <li><strong>+</strong> Innholdsforvaltning for ikke-utviklere.</li>
+            <li><strong>+</strong> Ferdige temaer som dekker tilgjengelighet og responsiv design «automatisk».</li>
+            <li><strong>−</strong> Lock-in: vanskelig å flytte fra plattformen.</li>
+            <li><strong>−</strong> Abonnementskostnader.</li>
+            <li><strong>−</strong> Mindre kontroll over kode og SEO.</li>
+            <li><strong>−</strong> Tendens til at «alle sider ser like ut».</li>
+          </ul>
+
+          <h3>KI-verktøy (v0, Lovable, Claude, Bolt)</h3>
+          <ul>
+            <li><strong>+</strong> Ekstremt rask — utkast på minutter.</li>
+            <li><strong>+</strong> Kan brukes som idégenerator selv om du hardkoder selv.</li>
+            <li><strong>+</strong> Bra for «hvordan skal det se ut?»-fasen.</li>
+            <li><strong>−</strong> Resultatet er ofte generisk «AI-glass-og-gradient»-stil.</li>
+            <li><strong>−</strong> Mister forståelsen av hvorfor koden er som den er.</li>
+            <li><strong>−</strong> Mange feil i tilgjengelighet, semantisk markup og SEO.</li>
+            <li><strong>−</strong> Kan ikke brukes blindt — du må skjønne det den lager.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Hvilke verktøy ble brukt likevel?</h2>
+          <p>Jeg har brukt KI som <strong>sparringspartner</strong>, ikke som generator. Den hjalp meg med:</p>
+          <ul>
+            <li>Å brainstorme designsystem (palett, typografi, spacing).</li>
+            <li>Å foreslå Norwegian-bokmål-formuleringer.</li>
+            <li>Å diskutere fordeler og ulemper ved tilnærminger.</li>
+          </ul>
+          <p>All HTML, CSS og JavaScript er skrevet, lest og forstått av meg. Det er en bevisst forskjell mellom å bruke KI for å lære, og å bruke KI for å slippe å lære.</p>
+        </section>
+
+        <section>
+          <h2>Refleksjon</h2>
+          <p>Det jeg er mest fornøyd med: at siden ikke ser ut som en typisk skoleoppgave, og at innholdet er kort og konkret nok til at en jevnaldrende faktisk leser det.</p>
+          <p>Det jeg ville gjort annerledes neste gang: starte med innholdet før jeg designet. Jeg brukte for mye tid på å pusle med farger før jeg visste hvor mye tekst jeg trengte plass til.</p>
+          <!-- TODO (student): tilpass refleksjonen over når du leverer, så den passer din egen erfaring -->
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__inner">
+      <div class="site-footer__col"><h4>Om siden</h4><p class="muted">Skoleoppgave i Informasjonsteknologi og medieproduksjon, Vg2&nbsp;IM.</p></div>
+      <div class="site-footer__col"><h4>Innhold</h4><ul><li><a href="risiko/index.html">Risiko</a></li><li><a href="ergonomi/index.html">Ergonomi</a></li><li><a href="kilder.html">Kilder</a></li><li><a href="om.html">Om prosjektet</a></li></ul></div>
+      <div class="site-footer__col"><h4>Hovedkilder</h4><ul><li><a href="https://www.arbeidstilsynet.no/" rel="noopener">Arbeidstilsynet</a></li><li><a href="https://www.stami.no/" rel="noopener">STAMI</a></li><li><a href="https://lovdata.no/dokument/SF/forskrift/2011-12-06-1356/" rel="noopener">Forskrift 528</a></li></ul></div>
+      <p class="site-footer__legal">© 2026 [NAVN] · Vg2&nbsp;IM · Innholdet er paraframert fra åpent tilgjengelige norske kilder.</p>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
