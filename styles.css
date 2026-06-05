@@ -680,6 +680,7 @@ p { margin: 0; }
   display: block;
   width: 100%;
   max-width: 320px;
+  height: 560px;
   margin-inline: auto;
   aspect-ratio: 9 / 16;
   object-fit: cover;
