@@ -687,6 +687,10 @@ p { margin: 0; }
   background: var(--surface-2);
   border-radius: var(--r-sm);
 }
+
+.figure__media source {
+  min-height: 560px;
+}
 .figure figcaption {
   margin-block-start: var(--s-3);
   font-size: var(--fs-300);
