@@ -679,7 +679,9 @@ p { margin: 0; }
 .figure__media {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  max-width: 320px;
+  margin-inline: auto;
+  aspect-ratio: 9 / 16;
   object-fit: cover;
   background: var(--surface-2);
   border-radius: var(--r-sm);
